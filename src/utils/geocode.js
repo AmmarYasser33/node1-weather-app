@@ -14,10 +14,11 @@ const geocode = (address, callback) => {
       callback(undefined, {
         latitude: body.results[0].position.lat,
         longitude: body.results[0].position.lon,
-        location:
-          body.results[0].address.country +
-          ", " +
-          body.results[0].address.municipality,
+        location: `${body.results[0].address.country}${
+          body.results[0].address.municipality
+            ? ", " + body.results[0].address.municipality
+            : ""
+        }`,
       });
     }
 
