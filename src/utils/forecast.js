@@ -1,6 +1,6 @@
 const request = require("request");
 
-const WEATHER_API_KEY = "3fda990e6e3ac52c172906162c2c1fbf";
+const WEATHER_API_KEY = "###";
 const WEATHER_URL = `https://api.openweathermap.org/data/2.5/weather?q=${"Giza"}&appid=${WEATHER_API_KEY}&units=metric`;
 // const WEATHER_URL_2 = `https://api.openweathermap.org/data/2.5/weather?lat=${"30.01365"}&lon=${"31.20814"}&appid=${WEATHER_API_KEY}&units=metric`;
 
