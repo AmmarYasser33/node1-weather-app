@@ -1,5 +1,5 @@
 const request = require("request");
-const GEO_API_KEY = `NFMBf7dFjgeXagm7AJriFAwzL1wnjap3`;
+const GEO_API_KEY = `###`;
 // const GEO_URL = `https://api.tomtom.com/search/2/geocode/${"Giza"}.json?key=${GEO_API_KEY}`;
 
 const geocode = (address, callback) => {
